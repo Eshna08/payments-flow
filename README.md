@@ -112,3 +112,4 @@ curl -X POST localhost:8080/api/payments \
 ## Why I built this
 
 I wanted to show the part of payment routing that is easy to get wrong: what to do after a timeout. The gateway, its retry rule and its counters are real code you can break from the page, instead of a diagram of how it ought to work.
+Deployment automation: Jenkins CI/CD with Docker on AWS EC2
